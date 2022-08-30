@@ -59,7 +59,7 @@ if (lists.length >= 1) {
           Error.style.display = "none";}, 5000);
           Error.style.display = "block";
 }
-if (inputTask.value === " " || inputTask.value === false) {
+if (inputTask.value === " " || inputTask.value == false) {
   MessageErrorSeconds() ;
    e.preventDefault();
  }else{
